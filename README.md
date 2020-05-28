@@ -49,8 +49,13 @@ sort(x)
 ```
 hist(mtcars$gear, main= "Histogram for gear data in mtcars table")
 ```
-(img)
-- gear is a column in the mtcars table as you can see.(img)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Rethima-Reddy/project-group-e/master/Images/Screenshot%20(303).png" width="500" height="350" />
+</p><br>
+- gear is a column in the mtcars table as you can see.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Rethima-Reddy/project-group-e/master/Images/Screenshot%20(303).png" width="500" height="350" />
+</p><br>
 ## Drawing a pie chart from set of data
 - We can get a pie chart from the data set we have. We can use a predefined method called ```pie()``` to draw a pie chart. For example:
 ```
@@ -60,10 +65,15 @@ pie(slices,lables = lableArray, main = "Pie Chart to represent interests of stud
 ```
 The result of this is as shown. The ```main``` is the parameter to set a title for a diagram.
 (pie chart image)
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Rethima-Reddy/project-group-e/master/Images/Screenshot%20(303).png" width="500" height="350" />
+</p><br>
 ## Drawing a boxPlot from set of data present
 - We can draw a box plot using a predefined function called ```boxplot()```. Example is as follows:
 ```
 boxplot(mtcars$mpg~mtcars$vs)
 ```
 - This will plot the miles per hour for a car against its engine as shown.(img)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Rethima-Reddy/project-group-e/master/Images/Screenshot%20(303).png" width="500" height="350" />
+</p><br>
