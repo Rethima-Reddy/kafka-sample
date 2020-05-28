@@ -50,7 +50,7 @@ sort(x)
 hist(mtcars$gear, main= "Histogram for gear data in mtcars table")
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Rethima-Reddy/project-group-e/master/Images/hist.png" width="500" height="350" />
+  <img src="https://raw.githubusercontent.com/Rethima-Reddy/project-group-e/master/Images/histo.png" width="500" height="350" />
 </p><br>
 
 - gear is a column in the mtcars table as you can see.
