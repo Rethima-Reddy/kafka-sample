@@ -44,14 +44,14 @@ x<- c(1,3,4,6,4,9)
 sort(x)
  > 1 3 4 4 6 9
 ```
-## Getting a histogram from set of data
+## Drawing a histogram from set of data
 - We can pictorially represent the data we have. To present the data in the form of histogram, we can use a predefined function called ```hist()```. For example, to a draw a histogram to a dataset called mtcars which will be downloaded by default during the instalaion process of R Studio) 
 ```
 hist(mtcars$gear, main= "Histogram for gear data in mtcars table")
 ```
 (img)
 - gear is a column in the mtcars table as you can see.(img)
-## Getting a pie chart from set of data
+## Drawing a pie chart from set of data
 - We can get a pie chart from the data set we have. We can use a predefined method called ```pie()``` to draw a pie chart. For example:
 ```
 slices <- c(10,9,5,2,4)
@@ -61,7 +61,7 @@ pie(slices,lables = lableArray, main = "Pie Chart to represent interests of stud
 The result of this is as shown. The ```main``` is the parameter to set a title for a diagram.
 (pie chart image)
 
-## Getting a boxPlot from set of data present
+## Drawing a boxPlot from set of data present
 - We can draw a box plot using a predefined function called ```boxplot()```. Example is as follows:
 ```
 boxplot(mtcars$mpg~mtcars$vs)
